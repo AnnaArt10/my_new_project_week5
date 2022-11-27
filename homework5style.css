@@ -1,0 +1,78 @@
+.header, .footer {
+   flex: 0 0 content; 
+   margin: 2%;
+}
+h1 {
+   position: relative;
+   padding-left: 10%;
+   margin: 3%;
+   background-color: #caebc1;
+  
+}
+h5 {
+   padding-right: 15%;
+}
+.header {
+   display: flex;
+   justify-content: center;
+}
+.main {
+flex: 1;
+display: flex;
+flex-direction: row;
+justify-content: stretch;
+}
+.body {
+   display: flex;
+   flex-flow: column;
+height: 100vh;
+
+}
+.nav {
+width: 20%;
+padding-left: 5%;
+padding-top: 5%;
+}
+.aside {
+   width: 20%;
+   padding-left: 4%;
+   padding-top: 5%;
+
+}
+.section {
+    flex: 1;
+    display: flex;
+    align-items:stretch;
+    flex-direction: column;
+    margin: 6%;
+    padding: 2%;
+    background-color: #caebc1;
+    border-radius: 10%;
+
+    
+}
+.footer {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   margin: 3%;
+   margin-top: -2%;
+   font-style: italic;
+}
+.body {
+   background-color: #E4EFCD;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: large;
+}
+#logo1 {
+   display: flex;
+   width: 80%;
+   margin: 10%;
+
+}
+#logo2 {
+   display: flex;
+   width: 83%;
+   margin: -5%;
+   margin-top: 10%;
+}
